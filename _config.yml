@@ -4,7 +4,7 @@ description: 'Life Long Learner, Python Evangelist, Data Science Enthusiast, Poe
 url: "http://hasil-sharma.github.io"
 baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
-# disqus_shortname: 'your-disqus-name'
+disqus_shortname: 'hasil-sharma-github-io'
 
 author:
   name: 'Hasil Sharma'
