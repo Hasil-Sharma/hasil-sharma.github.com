@@ -2,6 +2,7 @@
 title: "Better Python Debugging With IPDB"
 category: ["Python", "Productivity"]
 tags: ["Python", "Productivity"]
+desc: "I have been using Python extensively for past few months in my projects and like any other programming project I spend most of my time debugging and optimizing my code"
 ---
 
 ## Introduction
