@@ -1,9 +1,9 @@
 # Site settings
 title: Hasil-Sharma
-description: 'Life Long Learner, Python Evangelist, Data Science Enthusiast, Poet'
+description: 'Life Long Learner, Data Science Enthusiast, Python Evangelist, Bibliophile'
 url: "http://hasil-sharma.github.io"
 baseurl: '/'
-# google_analytics: 'UA-XXXXXX-X'
+google_analytics: 'UA-98977358-1'
 disqus_shortname: 'hasil-sharma-github-io'
 
 author:
