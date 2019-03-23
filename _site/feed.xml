@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hasil's Blog</title>
+    <description>A virtual proof that name is awesome!</description>
+    <link>http://localhost:4000</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Better Python Debugging With IPDB</title>
+        <description>
+          
+          I have been using Python extensively for past few months in my projects and like any other programming project I spend most of my time debugging and optimizing my code. Initially, I had been using print statements to understand my code flow, rectify bugs, profiling my code and other tasks...
+        </description>
+        <pubDate>Sat, 13 May 2017 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/2017-05-13-python-ipdb/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017-05-13-python-ipdb/</guid>
+      </item>
+    
+      <item>
+        <title>My Tryst with VIM</title>
+        <description>
+          
+          Link to my Old Blog My Tryst With VIM
+
+
+        </description>
+        <pubDate>Sun, 18 Sep 2016 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/2016-09-18-my-tryst-with-vim/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016-09-18-my-tryst-with-vim/</guid>
+      </item>
+    
+      <item>
+        <title>Concurrency &amp; Parallelism : Debunked !</title>
+        <description>
+          
+          I’ll discuss the differences between the two terms, how these two are related, and what they are and what they are not. Check out my old blog Concurrency &amp;amp; Parallelism : Debunked !
+
+
+        </description>
+        <pubDate>Fri, 16 Sep 2016 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/2016-09-16-Concurrency-&-Parallelism-Debunked-!/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016-09-16-Concurrency-&-Parallelism-Debunked-!/</guid>
+      </item>
+    
+      <item>
+        <title>Titanic: Machine Learning from Disaster – Naïve Bayes</title>
+        <description>
+          
+          Link to my old blog : Titanic: Machine Learning from Disaster – Naïve Bayes
+
+
+        </description>
+        <pubDate>Thu, 23 Jul 2015 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/2015-07-23-Titanic-Machine-Learning-from-Disaster-Naive-Bayes/</link>
+        <guid isPermaLink="true">http://localhost:4000/2015-07-23-Titanic-Machine-Learning-from-Disaster-Naive-Bayes/</guid>
+      </item>
+    
+      <item>
+        <title>Titanic: Machine Learning from Disaster – CART Model</title>
+        <description>
+          
+          Link to my old blog : Titanic: Machine Learning from Disaster – CART Model
+
+
+        </description>
+        <pubDate>Wed, 15 Jul 2015 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/2015-07-15-Titanic-Machine-Learning-from-Disaster-CART-Model/</link>
+        <guid isPermaLink="true">http://localhost:4000/2015-07-15-Titanic-Machine-Learning-from-Disaster-CART-Model/</guid>
+      </item>
+    
+      <item>
+        <title>Titanic: Machine Learning from Disaster – Part – 1</title>
+        <description>
+          
+          Link to my old blog : Titanic: Machine Learning from Disaster – Part – 1
+
+
+        </description>
+        <pubDate>Fri, 10 Jul 2015 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/2015-07-10-Titanic-Machine-Learning-from-Disaster-Part-1/</link>
+        <guid isPermaLink="true">http://localhost:4000/2015-07-10-Titanic-Machine-Learning-from-Disaster-Part-1/</guid>
+      </item>
+    
+  </channel>
+</rss>
