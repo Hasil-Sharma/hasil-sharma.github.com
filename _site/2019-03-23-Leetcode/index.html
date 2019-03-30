@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 -->
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
+
+  <title>One year of LeetCode, 1000+ Commits: Lessons Learnt</title>
+
+  <meta name="author" content="Hasil Sharma" />
+
+  
+
+  <link rel="alternate" type="application/rss+xml" title="Hasil's Blog - A virtual proof that name is awesome!" href="/feed.xml" />
+
+  
+
+  
+
+  
+<!-- Google Analytics -->
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-98977358-1', 'auto');
+    ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+
+
+
+  
+    
+      
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" />
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    
+      <link rel="stylesheet" href="/css/bootstrap-social.css" />
+    
+      <link rel="stylesheet" href="/css/main.css" />
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+    
+  
+
+  
+
+  
+
+  
+
+    <!-- Facebook OpenGraph tags -->
+  
+
+  
+  <meta property="og:title" content="One year of LeetCode, 1000+ Commits: Lessons Learnt" />
+  
+
+   
+  <meta property="og:description" content="Competitive programming is fun, rewarding and awesome. It helps you to become a better programmer, writing efficient software, and much more. Additionally, it is asked (depending on role) heavily in job interviews at most of the IT companies. For past one year I’ve been doing at least one question on...">
+  
+
+
+  <meta property="og:type" content="website" />
+
+  
+  <meta property="og:url" content="http://localhost:4000/2019-03-23-Leetcode/" />
+  <link rel="canonical" href="http://localhost:4000/2019-03-23-Leetcode/" />
+  
+
+  
+  <meta property="og:image" content="http://localhost:4000/img/pic.jpg" />
+  
+
+
+  <!-- Twitter summary cards -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@" />
+  <meta name="twitter:creator" content="@" />
+
+  
+  <meta name="twitter:title" content="One year of LeetCode, 1000+ Commits: Lessons Learnt" />
+  
+
+  
+  <meta name="twitter:description" content="Competitive programming is fun, rewarding and awesome. It helps you to become a better programmer, writing efficient software, and much more. Additionally, it is asked (depending on role) heavily in job interviews at most of the IT companies. For past one year I’ve been doing at least one question on...">
+  
+
+  
+  <meta name="twitter:image" content="http://localhost:4000/img/pic.jpg" />
+  
+
+  
+
+  
+
+</head>
+
+
+  <body>
+
+    
+
+  
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+        <a class="navbar-brand" href="http://localhost:4000">Hasil's Blog</a>
+      
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="/aboutme">About Me</a>
+
+          </li>
+        
+        
+      </ul>
+    </div>
+
+	
+	<div class="avatar-container">
+	  <div class="avatar-img-border">
+	    <a href="http://localhost:4000">
+	      <img class="avatar-img" src="/img/pic.jpg" />
+		</a>
+	  </div>
+	</div>
+	
+
+  </div>
+</nav>
+
+
+    <!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="post-heading">
+          <h1>One year of LeetCode, 1000+ Commits: Lessons Learnt</h1>
+		  
+		  
+		  
+		  <span class="post-meta">Posted on March 23, 2019</span>
+		  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+      
+
+      <article role="main" class="blog-post">
+        <p>Competitive programming is fun, rewarding and awesome. It helps you to become a better programmer, writing efficient software, and much more. Additionally, it is asked (depending on role) heavily in job interviews at most of the IT companies.</p>
+
+<p>For past one year I’ve been doing at least one question on <a href="http://leetcode.com/">Leetcode</a> (a competitive programming platform) a day and now, in the retrospect, I can see the benefits. I’m going to share my experience and strategies I followed that helped me to make most out of time invested in doing competitive programming.</p>
+
+<p>I believe someone starting out and struggling with competitive programming shall benefit from this post. These learning strategies are transferable and could be used to learn other skills. Yeah! competitive programming is a skill you get better at it with time and <em>directed</em> efforts.</p>
+
+<h2 id="go-easy">Go easy</h2>
+<p>Competitive programming is not trivial. It takes time, energy, and efforts to become good at it. Be kind on yourself. Do not feel demotivated when you are solving problems, and unable to do so. It comes naturally to some people, and for the rest, it comes with effort and time. Be assured that staying at it for some time with the right strategy is going to help a great deal in becoming good.</p>
+
+<h2 id="stick-to-a-topic--iterate">Stick to a topic &amp; iterate</h2>
+<p>I was haphazard in my approach when I started doing Leetcode - doing random problems with no specific direction to follow. With time I realized that this approach is limiting, and at the end of the day I’m not making me any real progress. Remember <em>just solving questions isn’t same as making progress</em>.</p>
+
+<p>The strategy I followed after this realization was to pick a topic - arrays, dynamic programming, graphs, trees, etc, - and cover problems for that topic, gain confidence, and moving on to the next topic. Remember, it is not about solving <em>all</em> the problems but just enough for you to gain confidence.</p>
+
+<p>Doing questions for a topic just once is never enough (wasn’t for me). There are always some concepts which warrant more understanding that is gained after covering the other topics. Hence, doing multiple iterations over topics is always a good idea.</p>
+
+<h2 id="dissect-a-problem">Dissect a problem</h2>
+<p>This advice seems obvious but it is possible to forget it at times. Solving a problem is simply not enough, chances of you seeing the exact same problem again are low though encountering some variation of it is highly likely.</p>
+
+<p>Therefore, do not only concentrate on solving the problem - go through all the constraints, understand how they shape the approach and speculate over how the approach would change when they are tweaked, etc.</p>
+
+<h2 id="it-is-okay-to-see-the-answer">It is okay to see the answer</h2>
+
+<p>Consider this, you’ve spent hours trying to come up with a way to solve the problem but haven’t found a solution yet. It is OKAY! to look at the answer after you’ve exhausted all the approaches you could think (personally I do it after an hour of intense trying).</p>
+
+<p>Even after you’ve solved a problem it is always a good idea to go through the approach used by others. Let us be honest, there are people who are much better at this than you are right now, and would definitely learn more by going through the alternate approaches.</p>
+
+<h2 id="do-more-of-what-is-not-easy">Do more of what is not easy</h2>
+<p>It is easy to make yourself believe you are making progress by doing more of the topics/questions which you are comfortable. Though this approach isn’t going to take you where you want to reach. I’m not suggesting to start tacking <strong>hard</strong> problems on day one, real progress is made <em>just</em> out of comfort zone. Start with easy problems with eventually increasing the difficulty level. Again, don’t be too hard on yourself, it takes time :).</p>
+
+<p>One of the good things about LeetCode is that it provides difficulty level tags which help to streamline the practice.</p>
+
+<h2 id="identify-the-pattern">Identify the pattern</h2>
+<p>There are only a few algorithms which you need to <em>know</em> to solve more than 90% of the problems. After solving like 20-30 problems from a topic you’ll have a sense of familiarity with the problems. And there is a high chance that the problem is some variation over one of the problems you’ve solved. Aim for this familiarity when you are starting out, and do not try to learn all the algorithms that will happen in time.</p>
+
+<p>In case, you are doing competitive programming to prepare for job interviews you do not need to know all the algorithms to ace them. Only knowing popular ones with possible applications is enough. Gayle covers this aspect very well in her book <a href="http://www.crackingthecodinginterview.com/">Cracking The Coding Interview</a>, and I would highly recommend this book to prepare for job interviews.</p>
+
+<h2 id="gamify-it">Gamify It!</h2>
+<p>Finding time to do competitive programming every day is hard, especially if you are a graduate student like me or have a full-time job. So, it is beneficial if you make a habit out of it and given the return it is a good habit to follow.</p>
+
+<p>The strategy I followed, to make competitive programming a habit, comes from a productivity hack which suggests you to <a href="https://lifehacker.com/the-best-tools-to-productively-gamify-every-aspect-of-1531404316">gamify life</a>. I started with making daily commits to my <a href="https://github.com/Hasil-Sharma/leet-code">leetcode repo</a> on GitHub and eventually, my aim in life became to keep the green light (contributions) going uninterrupted as long as I could. It is easy to cheat yourself into keeping this going by doing easy problems or making rogue commits but in the end, you’ve to be honest with yourself. Remember you are doing this for yourself.</p>
+
+<p>My GitHub contribution graph over the past year</p>
+
+<p><img src="/img/github-contri-leetcode.png" alt="Github Contributions" /></p>
+
+<h2 id="job-interviews">Job Interviews</h2>
+<p>All hands down job interviews are hard, stressful and take up a lot of energy. It is a performance where you are expected to present your best self. It is one thing to solve LeetCode/Competitive Programming in a pressure-free and low stake environment vs. solving a similar problem in an interview setting. Whiteboard interview is the standard interview process across the IT industry and most of the companies - big or small - follow it to make hiring decisions.</p>
+
+<p>** No comments from my end on whether whiteboard interviewing is a good parameter to evaluate a candidate **</p>
+
+<p>The best thing you could do to perform well in these interviews is to practice writing code on a whiteboard. No, seriously do it and you’ll realize it is not as easy as it sounds. Therefore, practicing writing code on a whiteboard is really important. Aim for writing code as close to real code. Though using short forms such as using <code class="highlighter-rouge">vi</code> for <code class="highlighter-rouge">vector&lt;int&gt;</code> is fine.</p>
+
+<p>Thanks for reading till the end, and hopefully you found it useful.</p>
+
+      </article>
+
+      
+
+      
+        <!-- Check if any share-links are active -->
+
+
+
+
+<section id = "social-share-section">
+  <span class="sr-only">Share: </span>
+
+  
+  <!--- Share on Twitter -->
+    <a href="https://twitter.com/intent/tweet?text=One+year+of+LeetCode%2C+1000%2B+Commits%3A+Lessons+Learnt+http://localhost:4000/2019-03-23-Leetcode/"
+      class="btn btn-social-icon btn-twitter" title="Share on Twitter">
+      <span class="fa fa-fw fa-twitter" aria-hidden="true"></span>
+      <span class="sr-only">Twitter</span>
+    </a>
+  
+
+  
+  <!--- Share on Facebook -->
+    <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/2019-03-23-Leetcode/"
+      class="btn btn-social-icon btn-facebook" title="Share on Facebook">
+      <span class="fa fa-fw fa-facebook" aria-hidden="true"></span>
+      <span class="sr-only">Facebook</span>
+    </a>
+  
+
+  
+
+  
+  <!--- Share on LinkedIn -->
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/2019-03-23-Leetcode/"
+      class="btn btn-social-icon btn-linkedin" title="Share on LinkedIn">
+      <span class="fa fa-fw fa-linkedin" aria-hidden="true"></span>
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  
+
+</section>
+
+
+
+      
+
+      <ul class="pager blog-pager">
+        
+        <li class="previous">
+          <a href="/2017-05-13-python-ipdb/" data-toggle="tooltip" data-placement="top" title="Better Python Debugging With IPDB">&larr; Previous Post</a>
+        </li>
+        
+        
+      </ul>
+
+      
+        <div class="disqus-comments">
+          <div class="comments">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'hasil-sharma-github-io';
+        /* ensure that pages with query string get the same discussion */
+            var url_parts = window.location.href.split("?");
+            var disqus_url = url_parts[0];
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+        </div>
+          
+        <div class="staticman-comments">
+          
+
+        </div>
+      
+    </div>
+  </div>
+</div>
+
+
+    <footer>
+  <div class="container beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links"><li><a href="/feed.xml" title="RSS"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">RSS</span>
+              </a>
+            </li><li><a href="mailto:hasilsharma7@gmail.com" title="Email me"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Email me</span>
+              </a>
+            </li><li><a href="https://github.com/hasil-sharma" title="GitHub"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">GitHub</span>
+              </a>
+            </li><li><a href="https://twitter.com/HasilSharma" title="Twitter"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Twitter</span>
+              </a>
+            </li><li><a href="https://linkedin.com/in/hasil-sharma" title="LinkedIn"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">LinkedIn</span>
+              </a>
+            </li></ul>
+      <p class="copyright text-muted">
+      Hasil Sharma
+      &nbsp;&bull;&nbsp;
+      2019
+
+      
+
+      
+      </p>
+          <!-- Please don't remove this, keep my open source work credited :) -->
+    <p class="theme-by text-muted">
+      Theme by
+      <a href="https://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
+    </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+    
+
+
+
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script>
+      	if (typeof jQuery == 'undefined') {
+      	  document.write('<script src="/js/jquery-1.11.2.min.js"></scr' + 'ipt>');
+      	}
+      </script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/bootstrap.min.js"></script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/main.js"></script>
+    
+  
+
+
+  
+  </body>
+</html>
